@@ -103,10 +103,10 @@
 			children = (
 				E166AB4D1BEE8F6700C4025F /* Source */,
 				E166AB191BEE7C5300C4025F /* AppDelegate.swift */,
-				E166AB1D1BEE7C5300C4025F /* Main.storyboard */,
 				E166AB201BEE7C5300C4025F /* Assets.xcassets */,
-				E166AB221BEE7C5300C4025F /* LaunchScreen.storyboard */,
 				E166AB251BEE7C5300C4025F /* Info.plist */,
+				E166AB221BEE7C5300C4025F /* LaunchScreen.storyboard */,
+				E166AB1D1BEE7C5300C4025F /* Main.storyboard */,
 			);
 			path = CustomTabBarItem;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 				E166AB491BEE7DF500C4025F /* CustomTabBarItem.swift */,
 				E166AB4E1BEE8FE800C4025F /* SecondCustomNavigationController.swift */,
 			);
-			name = Source;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +318,7 @@
 				E166AB1E1BEE7C5300C4025F /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		E166AB221BEE7C5300C4025F /* LaunchScreen.storyboard */ = {
@@ -326,6 +327,7 @@
 				E166AB231BEE7C5300C4025F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -501,6 +503,7 @@
 				E166AB401BEE7C5300C4025F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E166AB411BEE7C5300C4025F /* Build configuration list for PBXNativeTarget "CustomTabBarItemTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +512,7 @@
 				E166AB431BEE7C5300C4025F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E166AB441BEE7C5300C4025F /* Build configuration list for PBXNativeTarget "CustomTabBarItemUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +521,7 @@
 				E166AB461BEE7C5300C4025F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
